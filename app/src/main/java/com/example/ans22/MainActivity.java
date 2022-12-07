@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private Button exam;
 
 
-    //github test123이거 보이시면 옆에 이름 한번써주세요
+    //github test 이거 보이시면 옆에 이름 한번써주세요
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
