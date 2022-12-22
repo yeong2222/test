@@ -17,13 +17,13 @@ import android.widget.TextView;
 public class fragment4 extends Fragment {
 
     private View view;
-    private Button btn_m3;
+    private Button btn_m4;
     private CheckBox CheckBox41;
     private CheckBox CheckBox42;
     private CheckBox CheckBox43;
     private CheckBox CheckBox44;
     private TextView textView2;
-    private Button btn_rm3;
+    private Button btn_rm4;
 
 
     @Nullable
@@ -37,12 +37,12 @@ public class fragment4 extends Fragment {
         CheckBox42= view.findViewById(R.id.CheckBox42);
         CheckBox43= view.findViewById(R.id.CheckBox43);
         CheckBox44= view.findViewById(R.id.CheckBox44);
-        btn_rm3= view.findViewById(R.id.btn_rm3);
-        btn_m3= view.findViewById(R.id.btn_m3);
+        btn_rm4= view.findViewById(R.id.btn_rm3);
+        btn_m4= view.findViewById(R.id.btn_m3);
 
 
 
-        btn_rm3.setOnClickListener(new View.OnClickListener() {
+        btn_rm4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { //이전프래그먼트로 이동
                 FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
@@ -55,7 +55,7 @@ public class fragment4 extends Fragment {
             }
         });
 
-        btn_m3.setOnClickListener(new View.OnClickListener() {
+        btn_m4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();

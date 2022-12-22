@@ -53,6 +53,17 @@ public class quiz3 extends Fragment {
             }
         });
 
+        btn_m3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+
+                fragment4 fragment4 = new fragment4();
+                transaction.replace(R.id.frame1, fragment4);
+                transaction.commit();
+
+            }
+        });
 
 
         return view;

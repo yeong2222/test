@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment4">
+    tools:context=".fragment15">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1.4  실리콘 결정에서 공유결합하는 전자는 무엇이고, 몇 개인가"
+        android:text="1.5 n형 반도체에 소수 캐리어는 무엇인가?"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +22,7 @@
         />
 
     <Button
-        android:id="@+id/btn_m4"
+        android:id="@+id/btn_m5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
@@ -34,12 +34,12 @@
 
 
     <CheckBox
-        android:id="@+id/CheckBox41"
+        android:id="@+id/CheckBox51"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="212dp"
-        android:text="1. 4개 가전자들"
+        android:text="1. 정공"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
@@ -47,38 +47,38 @@
         ></CheckBox>
 
     <CheckBox
-        android:id="@+id/CheckBox42"
+        android:id="@+id/CheckBox52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="260dp"
-        android:text="2. 8개의 가전자, 그 자신이 4개이고 4개는 결합."
+        android:text="2. 전자."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 
     <CheckBox
-        android:id="@+id/CheckBox43"
+        android:id="@+id/CheckBox53"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="308dp"
-        android:text="3. 4개의 전도전자."
+        android:text="3. 중성자."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
     </CheckBox>
     <CheckBox
-        android:id="@+id/CheckBox44"
+        android:id="@+id/CheckBox54"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="356dp"
-        android:text="4. 모두 다른 원자들과 결합하기 때문에 없다."
+        android:text="4. 양자."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 
     <Button
-        android:id="@+id/btn_rm4"
+        android:id="@+id/btn_rm5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
@@ -88,5 +88,6 @@
         app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         ></Button>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

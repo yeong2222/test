@@ -31,7 +31,16 @@ public class elecquizchap extends AppCompatActivity {
         }
     });
 
+    elecq2 = findViewById(R.id.elecq2);
+    elecq2.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(elecquizchap.this, elecchapter21.class);
+            startActivity(intent);
+        }
+    });
 
     }
+
 
 }
