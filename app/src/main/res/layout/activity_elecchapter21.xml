@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent" ></Button>
 
     <CheckBox
-        android:id="@+id/elec_b21"
+        android:id="@+id/elec_b211"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 
     <CheckBox
-        android:id="@+id/elec_b22"
+        android:id="@+id/elec_b212"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 
     <CheckBox
-        android:id="@+id/elec_b23"
+        android:id="@+id/elec_b213"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -63,7 +63,7 @@
         ></CheckBox>
 
     <CheckBox
-        android:id="@+id/elec_b24"
+        android:id="@+id/elec_b214"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
