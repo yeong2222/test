@@ -21,23 +21,7 @@ public class elecchapter23 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_elecchapter23);
-        next_b23 = findViewById(R.id.next_b23);
-        next_b23.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(elecchapter23.this, elecchapter23.class);
-                startActivity(intent);
-            }
-        });
 
-        back_b23 = findViewById(R.id.back_b23);
-        back_b23.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(elecchapter23.this,elecchapter22.class);
-                startActivity(intent);
-            }
-        });
 
 
         elec_b231 = (CheckBox) findViewById(R.id.elec_b231);
