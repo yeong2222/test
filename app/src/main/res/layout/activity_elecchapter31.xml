@@ -10,7 +10,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2.1 변압기의 권선비(N2/N1)가 2이고, 1차        전압이 120V일 때, 2차전압은 얼마인가?"
+        android:text="3.1 다음중 제너 다이오드의 특성으로 옳은 것은?"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
         android:gravity="center"/>
 
     <Button
-        android:id="@+id/next_b21"
+        android:id="@+id/next_b31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
@@ -32,43 +32,43 @@
         app:layout_constraintStart_toStartOf="parent" ></Button>
 
     <CheckBox
-        android:id="@+id/elec_b21"
+        android:id="@+id/elec_b311"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="212dp"
-        android:text="0V"
+        android:text="정전압 소자"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 
     <CheckBox
-        android:id="@+id/elec_b22"
+        android:id="@+id/elec_b312"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="260dp"
-        android:text="60V"
+        android:text="정류용 소자"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 
     <CheckBox
-        android:id="@+id/elec_b23"
+        android:id="@+id/elec_b313"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="308dp"
-        android:text="169.7V"
+        android:text="순방향 전류특성 이용"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         ></CheckBox>
 
     <CheckBox
-        android:id="@+id/elec_b24"
+        android:id="@+id/elec_b314"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="356dp"
-        android:text="240V"
+        android:text="가변 커패시터 특성"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 

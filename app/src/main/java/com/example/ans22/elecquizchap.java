@@ -39,6 +39,51 @@ public class elecquizchap extends AppCompatActivity {
             startActivity(intent);
         }
     });
+    elecq3 = findViewById(R.id.elecq3);
+    elecq3.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(elecquizchap.this,elecchapter31.class);
+            startActivity(intent);
+
+
+
+        }
+    });
+        elecq4 = findViewById(R.id.elecq4);
+        elecq4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(elecquizchap.this,elecchapter41.class);
+                startActivity(intent);
+
+
+
+            }
+        });
+        elecq5 = findViewById(R.id.elecq5);
+        elecq5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(elecquizchap.this,elecchapter51.class);
+                startActivity(intent);
+
+
+
+            }
+        });
+        elecq6 = findViewById(R.id.elecq6);
+        elecq6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(elecquizchap.this,elecchapter61.class);
+                startActivity(intent);
+
+
+
+            }
+        });
+
 
     }
 

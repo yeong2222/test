@@ -58,25 +58,25 @@ public class elecchapter23 extends AppCompatActivity {
             boolean checked = ((CheckBox) view).isChecked();
 
             switch (view.getId()){
-                case R.id.elec_b221:
+                case R.id.elec_b231:
 
-                    if (checked) {
-                        Toast.makeText(getApplicationContext(), "오답", Toast.LENGTH_SHORT).show();
-                    }
-                    break;
-
-                case R.id.elec_b222:
                     if (checked) {
                         Toast.makeText(getApplicationContext(), "정답", Toast.LENGTH_SHORT).show();
                     }
                     break;
 
-                case R.id.elec_b223:
+                case R.id.elec_b232:
                     if (checked) {
                         Toast.makeText(getApplicationContext(), "오답", Toast.LENGTH_SHORT).show();
                     }
                     break;
-                case R.id.elec_b224:
+
+                case R.id.elec_b233:
+                    if (checked) {
+                        Toast.makeText(getApplicationContext(), "오답", Toast.LENGTH_SHORT).show();
+                    }
+                    break;
+                case R.id.elec_b234:
                     if (checked) {
                         Toast.makeText(getApplicationContext(), "오답", Toast.LENGTH_SHORT).show();
                     }
