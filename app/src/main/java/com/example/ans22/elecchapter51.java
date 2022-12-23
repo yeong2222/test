@@ -54,7 +54,7 @@ public class elecchapter51 extends AppCompatActivity {
                 case R.id.elec_b511:
 
                     if (checked) {
-                        Toast.makeText(getApplicationContext(), "정답", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "오답", Toast.LENGTH_SHORT).show();
                     }
                     break;
 
@@ -66,7 +66,7 @@ public class elecchapter51 extends AppCompatActivity {
 
                 case R.id.elec_b513:
                     if (checked) {
-                        Toast.makeText(getApplicationContext(), "오답", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "정답", Toast.LENGTH_SHORT).show();
                     }
                     break;
                 case R.id.elec_b514:

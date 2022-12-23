@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".elecchapter61">
+    tools:context=".elecchapter62">
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="6.1 전력 증폭기 중 항상 선형영역에서 동작하는   증폭기는   어느   것인가?"
+        android:text="6.2 A급 전력 증폭기가 부하에 전달할 수 있는 피크전류는 무엇에   의해 결정되는가?"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,56 +19,47 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.104" />
 
-    <Button
-        android:id="@+id/next_b61"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
-        android:text="다음"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.848"
-        app:layout_constraintStart_toStartOf="parent" ></Button>
+
 
     <CheckBox
-        android:id="@+id/elec_b611"
+        android:id="@+id/elec_b621"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="212dp"
-        android:text="A급 증폭기."
+        android:text="전원전압 Vcc."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 
     <CheckBox
-        android:id="@+id/elec_b612"
+        android:id="@+id/elec_b622"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="260dp"
-        android:text="B급 증폭기."
+        android:text="동작점 전류 Icq."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 
     <CheckBox
-        android:id="@+id/elec_b613"
+        android:id="@+id/elec_b623"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="308dp"
-        android:text="AB급 증폭기."
+        android:text="바이어스 저항."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         ></CheckBox>
 
     <CheckBox
-        android:id="@+id/elec_b614"
+        android:id="@+id/elec_b624"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="356dp"
-        android:text="C급 증폭기."
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="열 방출의 크기기."
+       app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></CheckBox>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
